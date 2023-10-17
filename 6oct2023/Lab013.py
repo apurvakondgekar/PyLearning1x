@@ -1,16 +1,10 @@
-num1 = input("Enter your number\n")
-num2 = input("Enter your number\n")
+my_string = "This is Prakri from The Testing Academy"
+print(type(my_string))
 
-print(num1+num2)
-print(type(num1))
+# String is bunch of char
+# a r n o l d
+name = "Arnold"
+print(len(name))
 
-num1 = int(input("Enter your number\n"))
-#or num1 = int(num1)
-num2 = int(input("Enter your number\n"))
-
-print("Add",num1+num2)
-print("Sub",num1-num2)
-print("Multiply",num1*num2)
-print("Divide",num1/num2)
-print(type(num1))
-
+name2 = " p"
+print(len(name2))

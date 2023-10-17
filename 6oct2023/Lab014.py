@@ -1,13 +1,13 @@
-long_string = "I am learning python"
-print(type(long_string))
-print(len(long_string))
-# It counts space also
-
 #Length starts from 1
 #Index starts from 0
 
 name = "Kristine"
+print(type(name))
 print(len(name))
+print(name)
 
-print(name[3])
-print(name[6])
+print(name[0])
+
+print("------")
+print(name[4])
+print(name[8])
